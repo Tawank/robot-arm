@@ -14,7 +14,7 @@ T p( T a )
     return a*a;
 }
 
-template < class T >
+template <typename T>
 string do_string( T t )
 {
     stringstream ss;
