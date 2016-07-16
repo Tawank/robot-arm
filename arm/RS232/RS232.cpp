@@ -41,7 +41,7 @@ SerialConnection::~SerialConnection()
 int SerialConnection::OpenPort(const unsigned short port, unsigned baud)
 {
 	//check valid number
-	if(port < 0 || port > 15)
+	if(port > 15)
 	{
 		std::cout << port << ": Invalid COM port number." << std::endl;
 		return 1;

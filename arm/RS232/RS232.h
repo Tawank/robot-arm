@@ -82,7 +82,7 @@ namespace RS232
 
 #endif //__LINUX__
 	};
-};
+}
 
 
 
