@@ -1,3 +1,3 @@
 # robot-arm
 
-  This is program for steering a robot arm.
+  Program for steering a robot arm.
