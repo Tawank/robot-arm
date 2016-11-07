@@ -9,23 +9,18 @@
 #define M_PI           3.14159265358979323846
 #endif
 
-//template <typename T>
-//T remap(T, T, T, T, T);
-
-//template <typename T>
-//T p (T);
-
 class Arm
 {
     private:
         RS232::SerialConnection Serial;
-        unsigned short _port;
         long double old_x,old_y;
+        unsigned short _port;
     public:
+        Arm();
         ~Arm();
         int openPort(unsigned short);
         void turn(long double);
-        int movexy();
+        int move();
         long double x,y;
 };
 
